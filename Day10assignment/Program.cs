@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("enter choice\n1.contact details\n2.add contacts dtails\n3.Edit contact");
+            Console.WriteLine("enter choice\n1.contact details\n2.add contacts dtails\n3.Edit contact\n4.Delete person contact");
             int opt=Convert.ToInt32(Console.ReadLine());
 
             switch(opt)
@@ -15,6 +15,9 @@
                     break;
                 case 3:
                     EditContacts.AddBook1();
+                    break;
+                case 4:
+                    DeletePerson. AddBook2();
                     break;
             }
         }
